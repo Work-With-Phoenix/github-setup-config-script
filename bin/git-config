@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+#by With Phoenix
 #The following script template configures your git and github username and email
 
 #configure your username 
