@@ -1,0 +1,9 @@
+#!/usr/bin/env zsh
+#by With Phoenix
+#generate gpg key pair
+gpg --full-generate-key
+#list long form of your key
+gpg --list-secret-key --keyid-format=long
+
+
+#the next steps you have to handle manually
