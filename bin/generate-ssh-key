@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+
+#generate ssh-key
+ssh-keygen -t ed25519 -C "youremail@here.com"
+#add ssh-key to ssh-agent
+eval "$(ssh-agent -s)"
+#add ssh private key
+ssh-add ~/.ssh/id_ed25519
+#get the generated ssh key and copy paste it  to your github account
+cat ~/.ssh/id_ed25519.pub
+
+
+#okay if all is configured as expected all should be well

@@ -1,0 +1,13 @@
+#!/usr/bin/env zsh
+#The following script template configures your git and github username and email
+
+#configure your username 
+git config --global user.name "username"
+
+#configure your email - must be the same email address directly linked to your github account
+git config --global user.email "youremail@here.com"
+
+
+#let's run this and see what happens
+#let's also get a message to inform us that we have a complient check
+echo "Your are all set!"
