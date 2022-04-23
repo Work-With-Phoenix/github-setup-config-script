@@ -1,4 +1,5 @@
 #!/usr/bin/env zsh
+#by with Phoenix
 
 #generate ssh-key
 ssh-keygen -t ed25519 -C "youremail@here.com"
